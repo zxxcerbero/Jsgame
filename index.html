@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container__contenido">
+        <div class="container__informaciones">
+          <div class="container__texto">
+            <h1></h1>
+            <h2></h2>
+            <p class="texto__parrafo"></p>
+          </div>
+          <input
+            id="verificarInput"
+            type="number"
+            min="1"
+            max="10"
+            class="container__input"
+            placeholder="Introduce un número" />
+          <div class="chute container__botones">
+            
+              <button id="btn10" onclick="setDificultad(10)" class="container__boton">
+                Dificultad 10
+              </button>
+              <button id="btn50" onclick="setDificultad(50)" class="container__boton">
+                Dificultad 50
+              </button>
+              <button id="btn100" onclick="setDificultad(100)" class="container__boton">
+                Dificultad 100
+              </button>
+
+            <button id="verificar" onclick="verificarIntento()" class="container__boton">
+              Intentar
+            </button>
+            <button id="reiniciar" onclick="reiniciarJuego()" disabled class="container__boton">
+              Reiniciar
+            </button>
+          </div>
+        </div>
+        <img
+          src="./img/ia.png"
+          alt="Una persona mirando a la izquierda"
+          class="container__imagen-persona" />
+      </div>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
