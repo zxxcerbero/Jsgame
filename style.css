@@ -98,11 +98,11 @@ body::before {
 }
 .container__imagen-persona {
   position: relative;
-  top: 50px;
+  top: 40px;
   right: 0;
   margin: 0;
   padding: 0;
-  max-width: 750px; /* ajusta según necesites */
+  max-width: 650px; /* ajusta según necesites */
 }
 
 h1 {
