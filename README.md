@@ -54,3 +54,23 @@ La imagen del personaje fue posicionada al borde del contenedor para una estéti
 
 ## 📦 Estructura del proyecto
 
+
+---
+
+## 🧠 Ideas futuras
+
+- 🎖️ Agregar sistema de puntuación.
+- 📊 Guardar el historial de partidas con LocalStorage.
+- ⏱️ Añadir temporizador o modo contrarreloj.
+- 📱 Adaptar completamente para móviles.
+
+---
+
+## 🧑‍💻 Autor
+
+Creado por **Elías**, apasionado por la tecnología, la programación y el desarrollo personal.  
+[LinkedIn](https://linkedin.com) · [GitHub](https://github.com)
+
+---
+
+¡Gracias por jugar! 🎉
